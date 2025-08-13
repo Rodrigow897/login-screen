@@ -108,3 +108,42 @@ h1{
   font-weight: 400;
 }
 
+.buttonLogin{
+  background-color: #FD7401;
+  width: 80%;
+  color: #FFFFFF;
+  margin-top: 33px;
+}
+
+.buttonSignup{
+  background-color: #FFFFFF;
+  width: 80%;
+  color: #FD7401;
+  margin-top: 30px;
+  border: #FD7401 1px solid;
+}
+
+.divider {
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #C2C2C2
+}
+
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.divider:not(:empty)::before {
+  margin-right: 0.75em;
+}
+
+.divider:not(:empty)::after {
+  margin-left: 0.75em;
+}
