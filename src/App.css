@@ -96,3 +96,15 @@ h1{
   background-color: #fd7401;
 }
 
+.link {
+  width: 80%;
+  color: #1a237e;         
+  text-decoration: underline; 
+  font-weight: 500;
+  display: flex;
+  justify-content: end;
+  margin-top: 13px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
