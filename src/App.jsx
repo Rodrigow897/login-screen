@@ -18,7 +18,7 @@ const App = () => (
         className = "input-box1"
         subtitle = "Email Adress"
         type = "text"
-        placeholder = "Alex@gmail.com"
+        placeholder = "alex@gmail.com"
         id = "logo-email"
         src = {LogoEmail}
         alt = "logo email"

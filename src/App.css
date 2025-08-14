@@ -19,6 +19,7 @@
   justify-content: center;
   align-items: center;
   flex: 0 0 30%;
+  background-color: white;
 }
 
 .lado-direito {
@@ -67,6 +68,7 @@ h1{
 }
 
 .inner-input{
+  color: #555555;
   width: 100%;
   height: 40px;
   border-radius: 6px;
@@ -113,6 +115,16 @@ h1{
   width: 80%;
   color: #FFFFFF;
   margin-top: 33px;
+  transition: box-shadow 0.3s ease;
+}
+
+.buttonLogin:hover{
+   box-shadow: 0px 10px 10px rgba(249, 183, 112, 0.3);
+}
+
+.buttonLogin:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(253, 116, 1, 0.5);
 }
 
 .buttonSignup{
@@ -121,6 +133,16 @@ h1{
   color: #FD7401;
   margin-top: 30px;
   border: #FD7401 1px solid;
+  transition: box-shadow 0.3s ease;
+}
+
+.buttonSignup:hover{
+  box-shadow: 0px 10px 10px rgba(249, 183, 112, 0.3);
+}
+
+.buttonSignup:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(253, 116, 1, 0.5);
 }
 
 .divider {
