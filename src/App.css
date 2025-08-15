@@ -110,8 +110,11 @@ h1{
 .buttonLogin{
   background-color: #FD7401;
   width: 80%;
+  border: none;
+  border-radius: 8px;
+  height: 45px;
   color: #FFFFFF;
-  margin-top: 33px;
+  margin-top: 45px;
   transition: box-shadow 0.3s ease;
 }
 
@@ -127,6 +130,8 @@ h1{
 .buttonSignup{
   background-color: #FFFFFF;
   width: 80%;
+  border-radius: 8px;
+  height: 45px;
   color: #FD7401;
   margin-top: 30px;
   border: #FD7401 1px solid;
