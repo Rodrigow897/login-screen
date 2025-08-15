@@ -14,32 +14,34 @@ const App = () => (
       <img id='logo' src={Logo} alt="foto da logo" />
       <h1>login into your account</h1>
 
-      <InputBox
-        className = "input-box1"
-        subtitle = "Email Adress"
-        type = "text"
-        placeholder = "alex@gmail.com"
-        id = "logo-email"
-        src = {LogoEmail}
-        alt = "logo email"
-      />
+      <form onSubmit={handleSubmit}>
+        <InputBox
+          className = "input-box1"
+          subtitle = "Email Adress"
+          type = "text"
+          placeholder = "alex@gmail.com"
+          id = "logo-email"
+          src = {LogoEmail}
+          alt = "logo email"
+        />
 
-      <InputBox
-        className = "input-box2"
-        subtitle = "Password"
-        type = "password"
-        placeholder = "Enter your password"
-        id = "logo-password"
-        src = {LogoPassword}
-        alt = "logo password"
-      />
+        <InputBox
+          className = "input-box2"
+          subtitle = "Password"
+          type = "password"
+          placeholder = "Enter your password"
+          id = "logo-password"
+          src = {LogoPassword}
+          alt = "logo password"
+        />
 
-      <a href="" className='link'>Forgot Password?</a>
+        <a href="" className='link'>Forgot Password?</a>
 
-      <Button 
-        className = "buttonLogin"
-        title = "Login Now"
-      />
+        <Button 
+          className = "buttonLogin"
+          title = "Login Now"
+        />
+      </form>
 
       <div class="divider">
         <span>OR</span>
