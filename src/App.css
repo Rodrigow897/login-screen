@@ -78,17 +78,13 @@ h1{
   padding-left: 10px;
 }
 
-#logo-email{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  width: 50px;
-  border-radius: 6px;
-  background-color: #fd7401;
+.inner-input:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(249, 183, 112, 0.3);
 }
 
-#logo-password{
+#logo-email,
+#logo-password {
   display: flex;
   justify-content: center;
   align-items: center;
